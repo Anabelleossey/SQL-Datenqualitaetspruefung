@@ -1,0 +1,201 @@
+product_id,product_name,description,price,category,sku,supplier_id,created_date
+1,USB-C Cable,Durable USB-C charging cable,7.44,Accessories,SKU-00001,123,2025-10-09
+2,27-inch Monitor,Full HD monitor,209.92,Electronics,SKU-00002,123,2025-04-15
+3,USB-C Cable,Durable USB-C charging cable,12.78,Accessories,SKU-00003,117,2025-03-31
+4,Building Blocks,Colorful building block set,30.25,Toys,SKU-00004,100,2025-04-06
+5,27-inch Monitor,Full HD monitor,211.93,Electronics,SKU-00005,119,2025-01-28
+6,Face Moisturizer,Daily hydrating face moisturizer,13.1,Beauty,SKU-00006,120,2026-07-13
+7,Cotton T-Shirt,Soft cotton crew-neck T-shirt,16.74,Clothing,,118,2025-10-12
+8,Yoga Mat,Non-slip exercise yoga mat,36.1,Sports,SKU-00008,124,2025-06-13
+9,Bluetooth Speaker,Portable Bluetooth speaker,60.54,Electronics,SKU-00009,108,2025-06-09
+10,27-inch Monitor,Full HD monitor,365.89,Electronics,SKU-00010,110,2025-04-15
+11,Mechanical Keyboard,Mechanical keyboard with backlit keys,77.83,Accessories,SKU-00011,111,2025-12-19
+12,Building Blocks,Colorful building block set,26.24,Toys,SKU-ABCDE,101,2026-04-16
+13,Face Moisturizer,Daily hydrating face moisturizer,12.09,Beauty,SKU-00013,112,2025-03-22
+14,Face Moisturizer,Daily hydrating face moisturizer,14.38,Gadgets,SKU-00014,120,2026-09-26
+15,Winter Jacket,Insulated winter jacket,165.88,Clothing,SKU-00015,118,2025-07-16
+16,Bluetooth Speaker,Portable Bluetooth speaker,42.54,Electronics,SKU-00016,121,2025-08-22
+17,Yoga Mat,Non-slip exercise yoga mat,23.29,Sports,SKU-00017,102,2025-08-27
+18,Desk Lamp,,24.28,Home & Kitchen,SKU-00018,108,2026-04-10
+19,USB-C Cable,Durable USB-C charging cable,13.58,Accessories,SKU-00019,105,2026-01-15
+20,Coffee Maker,Automatic drip coffee maker,41.4,Home & Kitchen,SKU-00020,108,2025-03-15
+21,Building Blocks,Colorful building block set,35.68,Toys,SKU-00020,117,2025-09-08
+22,Laptop,Business laptop with 16GB RAM,938.62,Electronics,SKU-00022,108,2026-07-25
+23,27-inch Monitor,Full HD monitor,307.97,Electronics,SKU-00023,124,2025-02-27
+24,27-inch Monitor,Full HD monitor,337.12,Electronics,SKU-00024,125,2025-11-20
+25,Cotton T-Shirt,Soft cotton crew-neck T-shirt,17.54,Clothing,SKU-00025,106,2026-08-04
+26,Winter Jacket,Insulated winter jacket,151.21,Clothing,SKU-00026,106,2026-05-27
+27,Cotton T-Shirt,Soft cotton crew-neck T-shirt,28.03,Clothing,SKU-00027,120,2026-04-15
+28,Laptop,Business laptop with 16GB RAM,787.62,Electronics, ,107,2026-07-29
+29,Face Moisturizer,Daily hydrating face moisturizer,13.96,Beauty,SKU-00029,118,2026-03-15
+30,Winter Jacket,Insulated winter jacket,137.51,Clothing,SKU-00030,111,2025-08-13
+31,Laptop,Business laptop with 16GB RAM,974.78,Electronics,SKU-00031,102,2025-02-18
+32,Desk Lamp,Adjustable LED desk lamp,24.52,Home & Kitchen,SKU-00032,120,2025-06-13
+33,Yoga Mat,Non-slip exercise yoga mat,31.93,Sports,ITEM33,119,2025-03-07
+34,Cotton T-Shirt,Soft cotton crew-neck T-shirt,19.48,Clothing,SKU-00034,114,2026-06-26
+35,Running Shoes,Lightweight running shoes,0.0,Sports,SKU-00035,100,2025-04-28
+36,USB-C Cable,Durable USB-C charging cable,14.01,Accessories,SKU-00036,124,2025-10-01
+37,Yoga Mat,Non-slip exercise yoga mat,31.05,Sports,SKU-00037,103,2025-10-28
+38,Cotton T-Shirt,Soft cotton crew-neck T-shirt,15.68,Clothing,SKU-00038,100,2025-09-27
+39,Face Moisturizer,Daily hydrating face moisturizer,20.75,Beauty,SKU-00039,116,2025-04-19
+40,Desk Lamp,Adjustable LED desk lamp,38.98,Home & Kitchen,SKU-00040,120,2026-06-04
+41,Building Blocks,Colorful building block set,24.56,Toys,SKU-00041,111,2025-06-15
+42,Face Moisturizer,Daily hydrating face moisturizer,-14.5,Beauty,SKU-00042,116,2025-01-01
+43,Building Blocks,Colorful building block set,27.76,Toys,SKU-00043,100,2025-04-25
+44,Winter Jacket,Insulated winter jacket,115.01,Clothing,SKU-00044,125,2025-11-11
+45,27-inch Monitor,Full HD monitor,174.8,Electronics,SKU-00045,118,2025-03-22
+46,Mechanical Keyboard, ,101.76,Accessories,SKU-00046,102,2026-06-30
+47,Yoga Mat,Non-slip exercise yoga mat,19.67,Sports,SKU-00047,121,2026-05-02
+48,Face Moisturizer,Daily hydrating face moisturizer,12.64,Beauty,SKU-00048,116,2026-09-14
+49,Cotton T-Shirt,Soft cotton crew-neck T-shirt,29.38,Clothing,SKU-00049,117,2025-07-25
+50,Bluetooth Speaker,Portable Bluetooth speaker,54.89,Electronics,SKU-00050,121,2026-01-18
+51,Python Guide,Beginner guide to Python programming,49.5,Books,SKU-00051,114,2025-05-04
+52,27-inch Monitor,Full HD monitor,210.24,Electronics,SKU-00052,110,2025-01-22
+53,Building Blocks,Colorful building block set,33.61,Toys,SKU-00053,118,2025-08-14
+54,Wireless Mouse,,17.75,Accessories,SKU-00054,120,2025-03-02
+55,27-inch Monitor,Full HD monitor,176.82,Electronics,SKU-00055,101,2025-12-05
+56,Mechanical Keyboard,Mechanical keyboard with backlit keys,86.95,Accessories,SKU-00056,108,2026-05-13
+57,27-inch Monitor,Full HD monitor,277.08,Electronics,SKU-00057,123,2026-08-08
+58,Building Blocks,Colorful building block set,31.54,Toys,SKU-00058,125,2026-04-30
+59,Yoga Mat,Non-slip exercise yoga mat,25.89,Sports, ,103,2025-04-10
+60,USB-C Cable,Durable USB-C charging cable,10.15,Accessories,SKU-00060,113,2026-02-25
+61,Python Guide,Beginner guide to Python programming,48.44,Books,SKU-00061,101,2025-04-11
+62,Wireless Mouse,Wireless optical mouse,24.8,Accessories,SKU-00062,110,2025-04-22
+63,27-inch Monitor,Full HD monitor,203.2,Electronics,SKU-00063,117,2026-04-05
+64,Laptop,Business laptop with 16GB RAM,907.73,Electronics,SKU-00064,108,2026-04-19
+65,27-inch Monitor,Full HD monitor,348.31,Electronics,SKU-00065,102,2026-03-30
+66,Yoga Mat,Non-slip exercise yoga mat,35.92,,SKU-00066,117,2025-04-11
+67,Wireless Mouse,Wireless optical mouse,30.1,Accessories,SKU-00067,117,2025-01-16
+68,Mechanical Keyboard,Mechanical keyboard with backlit keys,114.98,Accessories,SKU-00068,107,2025-06-20
+69,Cotton T-Shirt,Soft cotton crew-neck T-shirt,21.25,Clothing,SKU-00069,106,2026-02-15
+70,Winter Jacket,Insulated winter jacket,83.97,Clothing,SKU-00070,112,2025-01-03
+71,Cotton T-Shirt,Soft cotton crew-neck T-shirt,17.5,Clothing,SKU-00071,125,2026-04-11
+72,Running Shoes,Lightweight running shoes,65.61,Sports,ITEM72,123,2026-07-24
+73,USB-C Cable,Durable USB-C charging cable,12.59,Accessories,SKU-00073,104,2025-07-14
+74,Running Shoes,Lightweight running shoes,54.27,Sports,SKU-00074,101,2026-08-17
+75,Bluetooth Speaker,Portable Bluetooth speaker,66.64,Electronics,SKU-00075,123,2025-11-18
+76,Wireless Mouse,Wireless optical mouse,17.31,Accessories,SKU-00076,115,2026-05-30
+77,Winter Jacket,Insulated winter jacket,164.96,Clothing,SKU-00077,105,2025-02-28
+78,Face Moisturizer,Daily hydrating face moisturizer,11.48,Beauty,SKU-00078,105,2025-03-12
+79,Building Blocks,Colorful building block set,21.23,Toys,SKU-00079,107,2026-02-18
+80,Mechanical Keyboard,Mechanical keyboard with backlit keys,116.01,Accessories,SKU-00080,118,2025-09-10
+81,Building Blocks,Colorful building block set,34.65,Toys,SKU-00081,119,2025-03-25
+82,Cotton T-Shirt,Soft cotton crew-neck T-shirt,24.16,Clothing,SKU-00082,118,2026-06-20
+83,Coffee Maker,Automatic drip coffee maker,72.21,Home & Kitchen,SKU-00083,106,2025-11-18
+84,27-inch Monitor,Full HD monitor,218.93,Electronics,SKU-00084,104,2025-11-04
+85,Python Guide,Beginner guide to Python programming,32.15,Books,SKU-00085,124,2025-03-16
+86,Wireless Mouse,Wireless optical mouse,12500.0,Accessories,SKU-00086,118,2025-04-13
+87,Mechanical Keyboard,Mechanical keyboard with backlit keys,88.55,Accessories,SKU-00087,116,2025-09-29
+88,Laptop,Business laptop with 16GB RAM,1298.93,Electronics,SKU-00088,102,2025-09-08
+89,Coffee Maker, ,44.6,Home & Kitchen,SKU-00089,114,2026-07-11
+90,Bluetooth Speaker,Portable Bluetooth speaker,54.42,Electronics,SKU-00090,125,2026-06-26
+91,Wireless Mouse,Wireless optical mouse,30.43,Accessories,SKU-00091,117,2025-11-03
+92,Winter Jacket,Insulated winter jacket,145.65,Clothing,SKU-00092,104,2025-09-28
+93,Mechanical Keyboard,Mechanical keyboard with backlit keys,112.49,Accessories,SKU-00093,123,2026-07-21
+94,Laptop,Business laptop with 16GB RAM,793.34,Electronics,SKU-00094,119,2025-08-04
+95,Bluetooth Speaker,Portable Bluetooth speaker,56.48,Electronics,SKU-00095,121,2026-10-12
+96,Desk Lamp,Adjustable LED desk lamp,28.85,Home & Kitchen,SKU-00096,115,2025-09-15
+97,Winter Jacket,Insulated winter jacket,170.62,Clothing,SKU-00097,101,2025-04-05
+98,USB-C Cable,Durable USB-C charging cable,10.09,Accessories,SKU-00098,108,2025-02-15
+99,Wireless Mouse,Wireless optical mouse,-14.5,Accessories,SKU-00099,104,2025-09-26
+100,Laptop,Business laptop with 16GB RAM,1152.03,Electronics,SKU-00100,117,2026-03-14
+101,Face Moisturizer,Daily hydrating face moisturizer,10.52,Beauty,SKU-00101,102,2025-06-02
+102,Face Moisturizer,Daily hydrating face moisturizer,10.88,Beauty,SKU-00102,111,2026-08-20
+103,Face Moisturizer,Daily hydrating face moisturizer,12.41,Beauty,,104,2025-02-12
+104,Running Shoes,Lightweight running shoes,62.39,Sports,SKU-00104,125,2025-02-10
+105,Winter Jacket,Insulated winter jacket,114.49,Clothing,SKU-00105,121,2025-09-13
+106,USB-C Cable,Durable USB-C charging cable,7.37,Accessories,SKU-00106,124,2026-07-28
+107,Winter Jacket,Insulated winter jacket,167.21,Clothing,SKU-00107,119,2025-06-08
+108,Winter Jacket,Insulated winter jacket,172.83,Clothing,SKU-00108,105,2025-07-01
+109,Winter Jacket,Insulated winter jacket,120.04,Clothing,SKU-00109,105,2025-12-07
+110,Yoga Mat,Non-slip exercise yoga mat,37.46,Gadgets,SKU-00110,125,2025-09-12
+111,Running Shoes,Lightweight running shoes,51.04,Sports,SKU-00111,122,2025-04-21
+112,Cotton T-Shirt,Soft cotton crew-neck T-shirt,27.81,Clothing,SKU-00112,115,2025-08-16
+113,27-inch Monitor,Full HD monitor,336.01,Electronics,SKU-00113,114,2025-12-25
+114,Running Shoes,Lightweight running shoes,87.57,Sports,SKU-00114,107,2025-08-17
+115,Wireless Mouse,Wireless optical mouse,30.26,Accessories,SKU-00115,112,2025-12-03
+116,Running Shoes,Lightweight running shoes,89.99,Sports,SKU-ABCDE,124,2025-10-13
+117,Coffee Maker,Automatic drip coffee maker,59.75,Home & Kitchen,SKU-00117,112,2026-07-04
+118,Coffee Maker,Automatic drip coffee maker,72.4,Home & Kitchen,SKU-00118,103,2025-09-25
+119,Laptop,Business laptop with 16GB RAM,1029.14,Electronics,SKU-00119,108,2025-02-09
+120,Mechanical Keyboard,Mechanical keyboard with backlit keys,92.56,Accessories,SKU-00120,111,2025-11-18
+121,Cotton T-Shirt,Soft cotton crew-neck T-shirt,23.29,Clothing,SKU-00121,116,2025-04-29
+122,Cotton T-Shirt,Soft cotton crew-neck T-shirt,28.28,Clothing,SKU-00122,106,2025-09-18
+123,Wireless Mouse,Wireless optical mouse,31.3,Accessories,SKU-00123,100,2026-06-17
+124,Winter Jacket,,160.25,Clothing,SKU-00124,121,2025-07-21
+125,Coffee Maker,Automatic drip coffee maker,50.82,Home & Kitchen,SKU-00125,121,2025-12-05
+126,Building Blocks,Colorful building block set,27.5,Toys,SKU-00126,103,2025-11-04
+127,Face Moisturizer,Daily hydrating face moisturizer,14.6,Beauty,SKU-00127,113,2025-12-01
+128,Cotton T-Shirt,Soft cotton crew-neck T-shirt,24.84,Clothing,SKU-00128,117,2025-05-11
+129,27-inch Monitor,Full HD monitor,251.83,Electronics,SKU-00129,112,2025-06-28
+130,Building Blocks,,34.0,Toys,SKU-00130,112,2026-07-16
+131,Desk Lamp,Adjustable LED desk lamp,21.45,Home & Kitchen,SKU-00131,109,2025-08-04
+132,Cotton T-Shirt,Soft cotton crew-neck T-shirt,26.34,Clothing,SKU-00132,119,2025-11-26
+133,Python Guide,Beginner guide to Python programming,35.88,Books,SKU-00133,121,2025-08-07
+134,Face Moisturizer,Daily hydrating face moisturizer,16.82,Beauty,SKU-00134,125,2025-06-23
+135,USB-C Cable,Durable USB-C charging cable,7.21,Accessories,SKU-00135,116,2026-10-11
+136,Building Blocks,Colorful building block set,28.04,Toys,SKU-00136,124,2025-08-29
+137,USB-C Cable,Durable USB-C charging cable,9.13,Accessories,SKU-00137,125,2025-07-23
+138,Laptop,Business laptop with 16GB RAM,603.68,Electronics,SKU-00138,107,2026-05-02
+139,Building Blocks,Colorful building block set,41.15,Toys,SKU-00139,102,2026-04-12
+140,Cotton T-Shirt,Soft cotton crew-neck T-shirt,28.05,Clothing,SKU-00140,118,2025-07-19
+141,Bluetooth Speaker,Portable Bluetooth speaker,74.5,Electronics,SKU-00141,115,2026-02-14
+142,27-inch Monitor,Full HD monitor,193.85,Electronics,SKU-00142,122,2025-01-06
+143,Winter Jacket,Insulated winter jacket,0.0,Clothing,SKU-00143,124,2025-04-20
+144,Yoga Mat,Non-slip exercise yoga mat,26.29,Sports,SKU-00144,105,2026-06-15
+145,Python Guide,Beginner guide to Python programming,24.24,Books,SKU-00145,107,2025-05-05
+146,Python Guide,Beginner guide to Python programming,26.71,Books,SKU-00146,114,2026-06-28
+147,Face Moisturizer,Daily hydrating face moisturizer,18.49,Beauty,SKU-00147,124,2026-03-30
+148,Building Blocks,Colorful building block set,40.27,Toys,SKU-00148,116,2026-03-13
+149,Desk Lamp,Adjustable LED desk lamp,46.87,Home & Kitchen,SKU-00149,114,2025-06-12
+150,Bluetooth Speaker,Portable Bluetooth speaker,82.92,Electronics,SKU-00150,114,2025-09-23
+151,Yoga Mat,Non-slip exercise yoga mat,22.36,Sports, ,120,2025-10-11
+152,Yoga Mat,Non-slip exercise yoga mat,34.07,Sports,SKU-00152,115,2026-10-04
+153,27-inch Monitor,Full HD monitor,220.84,Electronics,SKU-00153,102,2025-10-20
+154,27-inch Monitor,Full HD monitor,220.23,Electronics,SKU-00154,110,2026-07-08
+155,Mechanical Keyboard,Mechanical keyboard with backlit keys,61.4,Accessories,SKU-00155,107,2026-01-28
+156,Bluetooth Speaker,Portable Bluetooth speaker,46.79,Electronics,SKU-00156,106,2025-03-07
+157,Cotton T-Shirt,Soft cotton crew-neck T-shirt,19.92,Clothing,SKU-00157,117,2026-04-23
+158,Cotton T-Shirt,Soft cotton crew-neck T-shirt,14.05,Clothing,SKU-00158,113,2026-02-03
+159,Winter Jacket,Insulated winter jacket,156.51,Clothing,SKU-00159,122,2025-01-21
+160,Desk Lamp,Adjustable LED desk lamp,46.14,Home & Kitchen,SKU-00160,118,2026-01-25
+161,Python Guide,Beginner guide to Python programming,22.92,Books,SKU-00161,111,2025-11-02
+162,Yoga Mat,Non-slip exercise yoga mat,25.51,Sports,SKU-00162,113,2026-07-06
+163,Bluetooth Speaker,Portable Bluetooth speaker,76.45,Electronics,SKU-00163,125,2026-09-10
+164,Winter Jacket,Insulated winter jacket,100.49,Clothing,SKU-00164,107,2025-10-07
+165,Cotton T-Shirt,Soft cotton crew-neck T-shirt,21.25,Clothing,SKU-00165,112,2025-12-11
+166,USB-C Cable,Durable USB-C charging cable,12.26,Accessories,SKU-00166,112,2025-06-19
+167,Desk Lamp,Adjustable LED desk lamp,34.55,Home & Kitchen,SKU-00167,104,2026-09-30
+168,Face Moisturizer,Daily hydrating face moisturizer,10.76,Beauty,SKU-00168,112,2026-08-30
+169,Building Blocks, ,36.39,Toys,SKU-00169,102,2026-03-15
+170,Laptop,Business laptop with 16GB RAM,1248.13,Electronics,SKU-00170,105,2025-02-21
+171,Running Shoes,Lightweight running shoes,63.19,Sports,SKU-00171,106,2026-04-11
+172,Coffee Maker,Automatic drip coffee maker,46.83,Home & Kitchen,SKU-00172,112,2025-10-12
+173,Yoga Mat,Non-slip exercise yoga mat,37.91,Sports,SKU-00173,113,2025-09-16
+174,Desk Lamp,Adjustable LED desk lamp,23.74,Home & Kitchen,SKU-00174,100,2026-07-07
+175,Wireless Mouse,Wireless optical mouse,37.48,Accessories,SKU-00175,111,2025-08-18
+176,USB-C Cable,Durable USB-C charging cable,7.08,Accessories,SKU-00176,120,2025-02-11
+177,Yoga Mat,Non-slip exercise yoga mat,17.58,Sports,ITEM177,107,2025-07-24
+178,Desk Lamp,Adjustable LED desk lamp,22.01,Home & Kitchen,SKU-00178,104,2025-09-02
+179,Laptop,Business laptop with 16GB RAM,947.26,Electronics,SKU-00179,103,2026-08-01
+180,27-inch Monitor,Full HD monitor,261.31,Electronics,SKU-00180,108,2026-01-13
+181,Laptop,Business laptop with 16GB RAM,1048.5,Electronics,SKU-00181,123,2025-04-28
+182,Yoga Mat,Non-slip exercise yoga mat,34.99,Sports,SKU-00182,109,2025-04-21
+183,Building Blocks,Colorful building block set,20.15,Toys,SKU-00183,109,2026-08-13
+184,USB-C Cable,Durable USB-C charging cable,14.2,Accessories,SKU-00184,112,2026-02-11
+185,Bluetooth Speaker,Portable Bluetooth speaker,49.11,Electronics,SKU-00185,118,2026-10-05
+186,27-inch Monitor,Full HD monitor,184.15,Electronics,SKU-00186,124,2025-11-05
+187,Desk Lamp,Adjustable LED desk lamp,40.63,Home & Kitchen,SKU-00187,125,2025-05-04
+188,Yoga Mat,Non-slip exercise yoga mat,38.63,,SKU-00188,125,2025-02-12
+189,Coffee Maker,Automatic drip coffee maker,55.13,Home & Kitchen,SKU-00189,121,2026-01-15
+190,Mechanical Keyboard,Mechanical keyboard with backlit keys,86.39,Accessories,SKU-00190,110,2025-01-13
+191,Desk Lamp,Adjustable LED desk lamp,33.22,Home & Kitchen,SKU-00191,115,2025-04-19
+192,Cotton T-Shirt,Soft cotton crew-neck T-shirt,29.32,Clothing,SKU-00192,120,2026-04-16
+193,Bluetooth Speaker,Portable Bluetooth speaker,46.79,Electronics,SKU-00193,105,2026-06-19
+194,USB-C Cable,Durable USB-C charging cable,8.79,Accessories,SKU-00194,125,2026-07-06
+195,Yoga Mat,Non-slip exercise yoga mat,27.57,Sports,SKU-00195,113,2026-08-30
+196,Running Shoes,Lightweight running shoes,60.05,Sports,SKU-00196,107,2025-03-30
+197,Running Shoes,Lightweight running shoes,90.95,Sports,SKU-00197,107,2026-04-21
+198,Building Blocks,Colorful building block set,35.05,Toys,SKU-00198,112,2025-12-11
+199,Wireless Mouse,Wireless optical mouse,26.74,Accessories,SKU-00199,110,2025-07-06
+200,Python Guide,Beginner guide to Python programming,29.05,Books,SKU-00200,125,2025-09-22
