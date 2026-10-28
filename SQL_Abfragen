@@ -1,0 +1,162 @@
+-- Projekt: Datenqualitätsprüfung mit SQL
+-- Ziel: Überprüfung der Vollständigkeit, Konsistenz und Genauigkeit
+
+-- Beispieltabelle: Product_Date
+-- Spalten: product_id,product_name,description,price,category,sku,supplier_id,created_date
+
+
+-- 1. VOLLSTÄNDIGKEIT
+-- Prüfung auf fehlende Werte
+
+WITH completeness_metrics AS (
+    SELECT
+        'PRODUCT_NAME' AS field_name,
+        COUNT(*) AS total_records,
+        COUNT(NULLIF(TRIM(PRODUCT_NAME), '')) AS complete_records,
+        ROUND(
+            COUNT(NULLIF(TRIM(PRODUCT_NAME), '')) * 100.0
+            / NULLIF(COUNT(*), 0),
+            2
+        ) AS completeness_percentage
+    FROM Product_Data
+
+    UNION ALL
+
+    SELECT
+        'PRICE',
+        COUNT(*),
+        COUNT(PRICE),
+        ROUND(
+            COUNT(PRICE) * 100.0 / NULLIF(COUNT(*), 0),
+            2
+        )
+    FROM Product_Data
+
+    UNION ALL
+
+    SELECT
+        'DESCRIPTION',
+        COUNT(*),
+        COUNT(NULLIF(TRIM(DESCRIPTION), '')),
+        ROUND(
+            COUNT(NULLIF(TRIM(DESCRIPTION), '')) * 100.0
+            / NULLIF(COUNT(*), 0),
+            2
+        )
+    FROM Product_Data
+
+    UNION ALL
+
+    SELECT
+        'CATEGORY',
+        COUNT(*),
+        COUNT(NULLIF(TRIM(CATEGORY), '')),
+        ROUND(
+            COUNT(NULLIF(TRIM(CATEGORY), '')) * 100.0
+            / NULLIF(COUNT(*), 0),
+            2
+        )
+    FROM Product_Data
+)
+SELECT * FROM completeness_metrics;
+
+-- 2. KONSISTENZ
+-- Konsistenzprüfung von Preis, Kategorie und SKU
+
+WITH consistency_metrics AS (
+SELECT
+    'PRICE' AS field_name,
+    COUNT(*) AS total_records,
+    COUNT(CASE
+        WHEN PRICE IS NOT NULL
+         AND PRICE> 0
+        THEN 1
+    END) AS consistent_prices,
+
+    ROUND(
+        COUNT(CASE
+            WHEN PRICE IS NOT NULL
+             AND PRICE>0
+            THEN 1
+        END) * 100.0 / NULLIF(COUNT(*), 0),
+        2
+    ) AS price_consistency_percentage
+FROM Product_Data
+UNION ALL
+SELECT
+    'CATEGORY' AS field_name,
+    COUNT(*) AS total_records,
+
+    COUNT(CASE
+        WHEN CATEGORY IN (
+            'Electronics',
+            'Accessories',
+            'Clothing',
+            'Home & Kitchen',
+            'Sports',
+            'Books',
+            'Beauty',
+            'Toys'
+        )
+        THEN 1
+    END) AS compliant_categories,
+
+    ROUND(
+        COUNT(CASE
+            WHEN CATEGORY IN (
+                'Electronics',
+                'Accessories',
+                'Clothing',
+                'Home & Kitchen',
+                'Sports',
+                'Books',
+                'Beauty',
+                'Toys'
+            )
+            THEN 1
+        END) * 100.0 / NULLIF(COUNT(*), 0),
+        2
+    ) AS category_consistency_percentage
+
+FROM Product_Data
+UNION ALL
+
+SELECT
+  'sku' AS field_name,
+    COUNT(*) AS total_records,
+
+    COUNT(CASE
+        WHEN regexp_full_match(sku, '[A-Z]{3}-[0-9]{5}')
+        THEN 1
+    END) AS format_compliant,
+
+    ROUND(
+        COUNT(CASE
+            WHEN regexp_full_match(sku, '[A-Z]{3}-[0-9]{5}')
+            THEN 1
+        END) * 100.0 / NULLIF(COUNT(*), 0),
+        2
+    ) AS sku_compliance_percentage
+  FROM Product_Data)
+SELECT * FROM consistency_metrics;
+
+-- 3. GENAUIGKEIT
+-- Prüfung auf ungültige Preis
+WITH validity_metrics AS (
+SELECT
+    'PRICE' AS field_name,
+    COUNT(*) AS total_records,
+    COUNT(CASE
+        WHEN PRICE BETWEEN 0.01 AND 10000
+        THEN 1
+    END) AS valid_prices,
+
+    ROUND(
+        COUNT(CASE
+        WHEN PRICE BETWEEN 0.01 AND 10000
+        THEN 1
+    END) * 100.0 / NULLIF(COUNT(*), 0),
+        2
+    ) AS price_valid_percentage
+FROM Product_Data)
+SELECT * FROM validity_metrics;
